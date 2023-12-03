@@ -15,42 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Project4\Project4\main.cpp">
+    <ClCompile Include="common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Project4\Project4\my_struct.cpp">
+    <ClCompile Include="get_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Project4\Project4\test_execution.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Project4\Project4\test_generator.cpp">
+    <ClCompile Include="my_struct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Project4\Project4\common.cpp">
+    <ClCompile Include="test_execution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Project4\Project4\get_test.cpp">
+    <ClCompile Include="test_generator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Project4\Project4\test_execution.h">
+    <ClInclude Include="common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Project4\Project4\test_generator.h">
+    <ClInclude Include="frequencies.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Project4\Project4\common.h">
+    <ClInclude Include="get_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Project4\Project4\frequencies.h">
+    <ClInclude Include="my_struct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Project4\Project4\get_test.h">
+    <ClInclude Include="test_execution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Project4\Project4\my_struct.h">
+    <ClInclude Include="test_generator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

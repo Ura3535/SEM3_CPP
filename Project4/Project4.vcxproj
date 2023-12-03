@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="get_test.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="my_struct.cpp" />
+    <ClCompile Include="test_execution.cpp" />
+    <ClCompile Include="test_generator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="frequencies.h" />
+    <ClInclude Include="get_test.h" />
+    <ClInclude Include="my_struct.h" />
+    <ClInclude Include="test_execution.h" />
+    <ClInclude Include="test_generator.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -128,22 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Project4\Project4\common.cpp" />
-    <ClCompile Include="..\..\Project4\Project4\get_test.cpp" />
-    <ClCompile Include="..\..\Project4\Project4\main.cpp" />
-    <ClCompile Include="..\..\Project4\Project4\my_struct.cpp" />
-    <ClCompile Include="..\..\Project4\Project4\test_execution.cpp" />
-    <ClCompile Include="..\..\Project4\Project4\test_generator.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Project4\Project4\common.h" />
-    <ClInclude Include="..\..\Project4\Project4\frequencies.h" />
-    <ClInclude Include="..\..\Project4\Project4\get_test.h" />
-    <ClInclude Include="..\..\Project4\Project4\my_struct.h" />
-    <ClInclude Include="..\..\Project4\Project4\test_execution.h" />
-    <ClInclude Include="..\..\Project4\Project4\test_generator.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
