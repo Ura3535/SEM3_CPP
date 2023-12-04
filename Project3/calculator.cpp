@@ -103,7 +103,7 @@ void Calculator::finish_calculation(SetNames set)
 {
 	++sets[set].done_actions;
 	if (sets[set].done_actions.load() == sets[set].actions) {
-		for (auto& set : sets[set].inaccessibles)
-			--sets[set].access;
+		for (auto& inaccessible_set : sets[set].inaccessibles)
+			--sets[inaccessible_set].access;
 	}
 }
